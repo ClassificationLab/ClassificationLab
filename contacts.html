@@ -102,6 +102,21 @@
     color:#F00;
   }
     
+
+  #nav button{
+  padding: 10px;
+  font-size: large;
+  color: white;
+  border-radius: 15px;
+  border-color:#FFBC53;
+  background-color:#751c54;
+  border-width: 2px;
+}
+
+#nav ul button a:hover {
+      color: skyblue;
+    }
+
   /* styles for the products section */
 #products {
   background-color: #FFF;
@@ -152,31 +167,56 @@
         }
 }
 
+@media (max-width: 470px) {
+        #nav{
+          height: 250px;
+        }
+}
+
+@media (max-width: 607px) {
+        #nav{
+          height: 250px;
+        }
+
+        #nav ul li{
+      padding-top: 20px ;
+      padding-left: 25px;
+      padding-right: 25px;
+        }
+}
+
     </style>
 
 </head>
 <body>
     <div id="intro">
         <hgroup>
-          <h1><img src="logo.jpg" alt="logo" width="350px"></h1>
+          <p><em>Научно-творческая группа по классификации товаров по коду ТНВЭД</em></p>
+          <h1><img src="logoru.jpg" alt="logo" width="350px"></h1>
         <h2>CARPE DIEM</h2>
         </hgroup>
 
-        <p><em>Научно-творческая группа по классификации товаров по коду ТНВЭД</em></p>
         <hr>
     </div>
    
     <div id="nav">
-        <ul>
-            <li><a href="index.html">Главная</a></li>
-            <li><a href="goods.html">Товары</a></li>
-            <li><a href="contacts.html">Контакты</a></li>
-            <li><a href="about.html">О Нас</a></li>
-        </ul>    
-    </div>
+      <ul>
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="goods.html">Исследования</a></li>
+          <li><a href="contacts.html">Контакты</a></li>
+          <li><a href="about.html">О Нас</a></li>
+          <button><a href="uz/contacts.html">UZ</a></button> 
+          <button><a href="contacts.html">RU</a></button> 
+      </ul>    
+  </div>
 
     <div id="content">
         <div id="products">
+
+          <h3>Предложения Научно-творческой Группе</h3>
+            <p>
+                Все предложения рассматриваются по электронной почте &quot;docnajmiddin@gmail.com&quot;
+            </p>
     
             <h3>Международное Общество</h3>
             <p>
@@ -192,10 +232,7 @@
                 Сайт Министерства Финансов и Экономики: <a href="https://mineconomy.gov.uz/uz"> mineconomy.gov.uz</a> <br>
             </p>
 
-            <h3>Предложения Научно-творческой Группе</h3>
-            <p>
-                Все предложения рассматриваются по электронной почте &quot;@docnajmiddin.com&quot;
-            </p>
+            
         </div> 
     </div>
 

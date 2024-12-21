@@ -102,6 +102,20 @@
     color:#F00;
   }
     
+  #nav button{
+  padding: 10px;
+  font-size: large;
+  color: white;
+  border-radius: 15px;
+  border-color:#FFBC53;
+  background-color:#751c54;
+  border-width: 2px;
+}
+
+#nav ul button a:hover {
+      color: skyblue;
+    }
+
   /* styles for the products section */
   #products {
   background-color: #FFF;
@@ -138,6 +152,40 @@
   color: dodgerblue;
 }
 
+#nav button{
+  padding: 10px;
+  font-size: large;
+  color: white;
+  border-radius: 15px;
+  border-color:#FFBC53;
+  background-color:#751c54;
+  border-width: 2px;
+}
+
+#nav ul button a:hover {
+      color: skyblue;
+    }
+
+.slider {
+  position: relative;
+  width: 100%;
+  height: 700px;
+  overflow: hidden;
+  border:#ffa853 2px double;
+}
+ 
+.slide {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 1s;
+}
+ 
+.slide:first-child {
+  opacity: 1;
+}
+
 @media (max-width: 895px) {
         #nav{
           height: 200px;
@@ -158,49 +206,86 @@
       padding-left: 25px;
       padding-right: 25px;
         }
+      }
+
+
+      @media (max-width: 470px) {
+        #nav{
+          height: 250px;
+        }
 }
 
+@media (max-width: 607px) {
+        #nav{
+          height: 250px;
+        }
 
-	    
+        #nav ul li{
+      padding-top: 20px ;
+      padding-left: 25px;
+      padding-right: 25px;
+        }
+}
+
     </style>
 
 </head>
 <body>
     <div id="intro">
         <hgroup>
-          <h1><img src="logo.jpg" alt="logo" width="350px"></h1>
+          <p style="padding-top: 30px;"><em>Научно-творческая группа по классификации товаров по коду ТНВЭД</em></p>
+          <h1><img src="logoru.jpg" alt="logo" width="350px"></h1>
         <h2>CARPE DIEM</h2>
         </hgroup>
 
-        <p><em>Научно-творческая группа по классификации товаров по коду ТНВЭД</em></p>
+        
         <hr>
     </div>
    
     <div id="nav">
-        <ul>
-            <li><a href="index.html">Главная</a></li>
-            <li><a href="goods.html">Товары</a></li>
-            <li><a href="contacts.html">Контакты</a></li>
-            <li><a href="about.html">О Нас</a></li>
-        </ul>    
-    </div>
+      <ul>
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="goods.html">Исследования</a></li>
+          <li><a href="contacts.html">Контакты</a></li>
+          <li><a href="about.html">О Нас</a></li>
+          <button><a href="uz/about.html">UZ</a></button> 
+          <button><a href="about.html">RU</a></button> 
+      </ul>    
+  </div>
 
     <div id="content">
         <div id="products">
     
-            <h3>Кто Мы?</h3>
+            <h3>Участники научно-творческой группы "Классификационная Лаборатория" на 2024-2025 учебный год </h3>
             <p>
-            Вы находитесь на сайте научно-исследовательской группы по определению кода товаров по товарной номенклатуре внешней экономической деятельности. Наша группа была создана 
-            в 2024 году под руководством подполковника таможенной службы Ш.Муратовы на основе <b>приказа Таможенного Института №8 от 31 января 2022 года</b>.   
+            <ol>
+              <li>Неъматуллаев Нажмиддин</li>
+              <li>Жумабоев Жасур</li>
+              <li>Шомуродов Шожасур</li>
+              <li>Гостюхина Ангелина</li>
+              <li>Аралбаева Умида</li>
+            </ol>
+            <b>Руководители группы</b><br>
+            <p>Начальник кафедры экспертизы и классификации товаров, д.э.н. , профессор <b>Ш.Муратова</b></p>
+            <p>Доцент кафедры экспертизы и классификации товаров, к.х.н. , <b>З.Садыков</b></p>
             </p>
-            <p  >Никому не секрет что правильная классификация товаров на сегодняшний день является одним из основных проблем которую стоит решить, так как она является главным фактором для взымания таможенных платежей. Целью же нашей научно-творческой группы является изучение товаров которых сложно классифицировать и наряду с этим найти их товарные позиции. 
-            </p>
-		
-            <p id="img">
-            <img src="img/1.png" alt="" ><br>
-            Наша Команда
-          </p>
-        
+           
+           
+            <div class="slider">
+              <img src="img/1.png" alt="Изображение 1" class="slide">
+              <img src="img/4.jpg" alt="Изображение 2" class="slide">
+              <img src="img/5.jpg" alt="Изображение 3" class="slide">
+              <img src="img/6.jpg" alt="Изображение 4" class="slide">
+              <img src="img/7.jpg" alt="Изображение 5" class="slide">
+              <img src="img/8.jpg" alt="Изображение 6" class="slide">
+              <img src="img/9.jpg" alt="Изображение 7" class="slide">
+              <img src="img/10.jpg" alt="Изображение 8" class="slide">
+              <img src="img/2.jpg" alt="Изображение 9" class="slide">
+            </div>
+
+            <p id="img">Наша Команда</p>
+
+
             <h3>Благодарности</h3>
             <p>
               <ol>
@@ -215,8 +300,8 @@
             <h3>Благодарности от Автора</h3>
             <p id="wishes">
               <ul>
-              <li><b>Муратова Шохиста Ниматуллаевна</b> - доцент, преподаватель, начальник кафедры Таможенной экспертизы Таможенного Института</li>
-              <li><b>Мадалиева Рухшона</b> - доцент, преподаватель в Таможенном Институте</li> 
+              <li><b>Муратова Шохиста Ниматуллаевна</b> - начальник кафедры Таможенной экспертизы и классификации товаров Таможенного Института, д.э.н. , профессор</li>
+              <li><b>Мадалиева Рухшона Хакимжановна</b> - к.п.н. , доцент кафедры социально-экономических наук Таможенного Института</li> 
               <li><b>Зухра Маджидовна</b> - преподаватель в СГОШ №41 "Шодлик" в городе Фергана</li>
               <li><b>Гульшаной Нишанбаевна</b> -преподаватель в СГОШ №41 "Шодлик" в городе Фергана</li>
               <li><b>Санжар Юсупов</b> - доцент, преподаватель в Ферганском Политехническом Институте</li>
@@ -250,5 +335,43 @@
     <footer>
 
     </footer>
+
+
+
+
+
+    <script src="vendor/jquery.min.js" type="text/javascript"></script>
+    <script src="vendor/jquery-migrate.min.js" type="text/javascript"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+
+    <!-- PAGE LEVEL PLUGINS -->
+    <script src="vendor/jquery.easing.js" type="text/javascript"></script>
+    <script src="vendor/jquery.back-to-top.js" type="text/javascript"></script>
+    <script src="vendor/jquery.smooth-scroll.js" type="text/javascript"></script>
+    <script src="vendor/jquery.wow.min.js" type="text/javascript"></script>
+    <script src="vendor/swiper/js/swiper.jquery.min.js" type="text/javascript"></script>
+    <script src="vendor/masonry/jquery.masonry.pkgd.min.js" type="text/javascript"></script>
+    <script src="vendor/masonry/imagesloaded.pkgd.min.js" type="text/javascript"></script>
+
+    <!-- PAGE LEVEL SCRIPTS -->
+    <script src="js/layout.min.js" type="text/javascript"></script>
+    <script src="js/components/wow.min.js" type="text/javascript"></script>
+    <script src="js/components/swiper.min.js" type="text/javascript"></script>
+    <script src="js/components/masonry.min.js" type="text/javascript"></script>
+
+
+    <script>
+      let currentIndex = 0;
+      const slides = document.querySelectorAll('.slide');
+      const slideInterval = 7000;
+      
+      function changeSlide() {
+      slides[currentIndex].style.opacity = 0;
+      currentIndex = (currentIndex + 1) % slides.length;
+      slides[currentIndex].style.opacity = 1;
+                }
+ 
+        setInterval(changeSlide, slideInterval);
+            </script>
 </body>
 </html>
