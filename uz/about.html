@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harmonized System</title>
+    
+    <style type="text/css">
+      
+    body {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 100%;
+    margin: 0;
+  
+  /* background gradient at top of page, from http://www.colorzilla.com/gradient-editor/ */
+    background: -moz-linear-gradient(top,  #ffa853 0%, #fdf9bd 2%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffa853),color-stop(2%,#fdf9bd));
+    background: -webkit-linear-gradient(top,  #ffa853 0%,#fdf9bd 2%);
+    background: -o-linear-gradient(top,  #ffa853 0%,#fdf9bd 2%);
+    background: -ms-linear-gradient(top,  #ffa853 0%,#fdf9bd 2%);
+    background: linear-gradient(top,  #ffa853 0%,#fdf9bd 2%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffa853', endColorstr='#fdf9bd',GradientType=0 );
+    background-repeat: repeat-x;
+    background-color: #fdf9bd; /* Old browsers */
+  
+  }
+
+  /* link styles */
+  a:link {
+      color: #C00;
+    }
+  a:visited {
+      color: #921A66;
+    }
+  a:focus {
+    color: #921A66;
+  }
+  a:hover {
+      color: #921A66;
+    }
+  a:active {
+    color:#F00;
+  }
+
+  /* styles for the intro section */
+#intro {
+	text-align: center;
+  margin: 1em 0 1em;
+}
+#intro h1 {
+  margin-bottom: 0;
+  margin-top: 42px;
+}
+#intro h2 {
+	font-size: 1.2em;
+	text-transform: uppercase;
+	letter-spacing: .2em;
+	color: #f26521;
+  margin-top: -10px;
+}
+#intro p {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+  margin: 1em;
+}
+
+
+
+  /* styles for navigation */
+  #nav {
+    background-color: #751c54;
+    height: 90px;
+    text-align: center;
+  }
+  #nav ul {
+    list-style:none;
+  } 
+  #nav ul li {
+      font-weight: normal;
+      text-transform: uppercase;
+      display: inline-block;
+      padding-top: 33px ;
+      padding-left: 50px;
+      padding-right: 50px;
+      font-size:large;
+  }
+  #nav ul a:link {
+      color: #fff;
+      text-decoration: none;
+    }
+  #nav ul a:visited {
+      color: #fff;
+    }
+  #nav ul a:focus {
+    color:#FC6
+  }
+  #nav ul a:hover {
+      color: #fc6;
+    }
+  #nav ul a:active {
+    color:#F00;
+  }
+    
+  /* styles for the products section */
+  #products {
+  background-color: #FFF;
+  line-height: 1.5em;
+  padding: 1em;
+  border: double #FFBC53;
+  margin: 1em;
+  }
+#products h2 {
+  font-size: 1.2em;
+  color: #ac267b;
+  text-align: center;
+  text-transform: uppercase;
+  }
+#products h3 {
+  font-size: 1em;
+  text-transform: uppercase;
+  color: #F26521;
+  border-top: 1px solid;
+  border-left: 3px solid;
+  padding-left: 1em;
+  margin-top: 2.5em;
+}
+
+#img{
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+  font-size: large;
+}
+
+#founder{
+  text-align: center;
+  color: dodgerblue;
+}
+
+#nav button{
+  padding: 10px;
+  font-size: large;
+  color: white;
+  border-radius: 15px;
+  border-color:#FFBC53;
+  background-color:#751c54;
+  border-width: 2px;
+}
+
+#nav ul button a:hover {
+      color: skyblue;
+    }
+
+.slider {
+  position: relative;
+  width: 100%;
+  height: 700px;
+  overflow: hidden;
+  border:#ffa853 2px double;
+}
+ 
+.slide {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 1s;
+}
+ 
+.slide:first-child {
+  opacity: 1;
+}
+
+@media (max-width: 895px) {
+        #nav{
+          height: 200px;
+        }
+}
+
+@media (max-width: 470px) {
+        #nav ul li{
+      padding-top: 20px ;
+      padding-left: 50px;
+      padding-right: 50px;
+        }
+}
+
+@media (max-width: 350px) {
+        #nav ul li{
+      padding-top: 20px ;
+      padding-left: 25px;
+      padding-right: 25px;
+        }
+      }
+    </style>
+
+</head>
+<body>
+    <div id="intro">
+        <hgroup>
+          <h1><img src="../logo.jpg" alt="logo" width="350px"></h1>
+        <h2>CARPE DIEM</h2>
+        </hgroup>
+
+        <p><em>Tovarlarni TIF TN kodi asosida tasniflash ilmiy-ijodiy jamoasi</em></p>
+        <hr>
+    </div>
+   
+    <div id="nav">
+      <ul>
+          <li><a href="index.html">Asosiy</a></li>
+          <li><a href="goods.html">Tadqiqotlar</a></li>
+          <li><a href="contacts.html">Kontaktlar</a></li>
+          <li><a href="about.html">Biz Haqimizda</a></li>
+            <button><a href="about.html">UZ</a></button> 
+            <button><a href="../about.html">RU</a></button> 
+        </ul>  
+          
+    </div>
+
+    <div id="content">
+        <div id="products">
+    
+          <h3>2024/2025-o‘quv yilida “Tasniflash laboratoriyasi” ilmiy-ijodiy jamoa a’zolari:</h3> 
+          <p>
+          <ol>
+            <li>Ne'matullayev Najmiddin</li>
+            <li>Jumaboyev Jasur</li>
+            <li>Shomurodov Shojasur</li>
+            <li>Gostyuxina Angelina</li>
+            <li>Aralbayeva Umida</li>
+          </ol>
+          <b>Jamoa rahbarlari: </b><br>
+          <p>Bojxona ekspertizasi va tovarlarni tasniflash kafedra boshligʻi, i.f.d., professor <b>Sh.Muratova</b></p>
+          <p>Bojxona ekspertizasi va tovarlarni tasniflash kafedrasi dotsenti, k.f.n. <b>Z.Sadikov</b></p>
+          </p>
+           
+           
+            <div class="slider">
+              <img src="../img/1.png" alt="Изображение 1" class="slide">
+              <img src="../img/4.jpg" alt="Изображение 2" class="slide">
+              <img src="../img/5.jpg" alt="Изображение 3" class="slide">
+              <img src="../img/6.jpg" alt="Изображение 4" class="slide">
+              <img src="../img/7.jpg" alt="Изображение 5" class="slide">
+              <img src="../img/8.jpg" alt="Изображение 6" class="slide">
+              <img src="../img/9.jpg" alt="Изображение 7" class="slide">
+              <img src="../img/10.jpg" alt="Изображение 8" class="slide">
+              <img src="../img/2.jpg" alt="Изображение 9" class="slide">
+            </div>
+
+            <p id="img">Bizning Jamoamiz</p>
+
+
+            <h3>Minnatdorchiliklar</h3>
+            <p>
+              <ol>
+              <li>Bojxona instituti rahbariyatiga sifatli ta’lim olish uchun yuqori darajali sharoitlar bilan ta'minlagalari uchun.</li>
+              <li>Bojxona instituti professor-o‘qituvchilariga o‘z bilimlarini taqdim etganliklari uchun.</li>
+              <li>Malakali xodimlarni tayyorlashga qo'shgan hissalari uchun kurs boshliqlari va batalyon komandiriga.</li>
+              <li>Yordam va qo'llab-quvvatlaganlari uchun 522 guruh kursantlariga.</li>
+              <li>Tavsiyalar va hamkorlik uchun Farg‘ona viloyati hududiy boshqarmasiga.</li>
+              </ol>
+            </p>
+
+            <h3>Sayt Asoschisidan Tashakurlar</h3>
+            <p id="wishes">
+              <ul>
+              <li><b>Muratova Shohista Nimatullayevna</b> - Bojxona ekspertizasi va tovarlarni tasniflash kafedra boshligʻi, i.f.d., professor</li>
+              <li><b>Madaliyeva Ruxshona Hakimjonova</b> - Bojxona instituti ijtimoiy-gumanitar fanlar kafedrasi dotsenti, siyosiy fanlar nomzodi</li> 
+              <li><b>Zuxra Madjidovna</b> - Farg‘ona shahar 41-son “Shodlik” IDUM o‘qituvchisi</li>
+              <li><b>Gulshanoy Nishhanbayevna</b> - Farg‘ona shahar 41-son “Shodlik” IDUM o‘qituvchisi</li>
+              <li><b>Sanjar Yusupov</b> - Farg‘ona politexnika instituti dotsenti</li>
+              <li><b>Yelena Anatolyevna</b> - Farg‘ona shahar 41-son “Shodlik” IDUM o‘qituvchisi</li>
+              <li><b>Aleksandr Alfredovich</b> - Toshkent axborot texnologiyalari instituti Farg‘ona filiali o‘qituvchisi</li>
+              <li><b>Xan Yelena Borisovna</b>- Farg‘ona shahar 41-son “Shodlik” IDUM o‘qituvchisi</li>
+              <li><b>Barchinoy Maxmudovna</b>- Farg‘ona shahar 41-son “Shodlik” IDUM o‘qituvchisi</li>
+              <li><b>Nafisa Odilovna</b> - Farg‘ona shahar 41-son “Shodlik” IDUM o‘qituvchisi</li>
+              <li><b>Parvina Hamidovna</b>- Farg‘ona shahar 41-son “Shodlik” IDUM o‘qituvchisi</li>
+              <li><b>Umrzoqov Islom</b> - “Temurbeklar maktabi” HAL guruh komandiri</li>
+              <li><b>Shamsutdinov Saidabbos</b> - "JIDU" talabasi</li> 
+              <li><b>Abdullaev Abdurashid</b> - talaba</li>
+              <li><b>Xalilova Laylo</b> - </li>
+              
+
+                   </ul>  
+            </p>
+
+        <h3>Alohida Minnatdorchiliklar</h3>  
+       <p>
+        <li><b>Najmidinov Ubaydullo</b></li>
+        <li><b>Najmidinova Muxayoxon</b></li>
+      </p>
+
+
+      <h3>Asoschi</h3>
+      <p id="founder"><b>Buni bilish uchun <a href="founder.html">havolaga </a> o‘ting  </b></p>
+        </div> 
+    </div>
+
+    <footer>
+
+    </footer>
+
+
+
+
+
+    <script src="vendor/jquery.min.js" type="text/javascript"></script>
+    <script src="vendor/jquery-migrate.min.js" type="text/javascript"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+
+    <!-- PAGE LEVEL PLUGINS -->
+    <script src="vendor/jquery.easing.js" type="text/javascript"></script>
+    <script src="vendor/jquery.back-to-top.js" type="text/javascript"></script>
+    <script src="vendor/jquery.smooth-scroll.js" type="text/javascript"></script>
+    <script src="vendor/jquery.wow.min.js" type="text/javascript"></script>
+    <script src="vendor/swiper/js/swiper.jquery.min.js" type="text/javascript"></script>
+    <script src="vendor/masonry/jquery.masonry.pkgd.min.js" type="text/javascript"></script>
+    <script src="vendor/masonry/imagesloaded.pkgd.min.js" type="text/javascript"></script>
+
+    <!-- PAGE LEVEL SCRIPTS -->
+    <script src="js/layout.min.js" type="text/javascript"></script>
+    <script src="js/components/wow.min.js" type="text/javascript"></script>
+    <script src="js/components/swiper.min.js" type="text/javascript"></script>
+    <script src="js/components/masonry.min.js" type="text/javascript"></script>
+
+
+    <script>
+      let currentIndex = 0;
+      const slides = document.querySelectorAll('.slide');
+      const slideInterval = 7000;
+      
+      function changeSlide() {
+      slides[currentIndex].style.opacity = 0;
+      currentIndex = (currentIndex + 1) % slides.length;
+      slides[currentIndex].style.opacity = 1;
+                }
+ 
+        setInterval(changeSlide, slideInterval);
+            </script>
+</body>
+</html>

@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harmonized System</title>
+    
+    <style type="text/css">
+      
+    body {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 100%;
+    margin: 0;
+  
+  /* background gradient at top of page, from http://www.colorzilla.com/gradient-editor/ */
+    background: -moz-linear-gradient(top,  #ffa853 0%, #fdf9bd 2%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffa853),color-stop(2%,#fdf9bd));
+    background: -webkit-linear-gradient(top,  #ffa853 0%,#fdf9bd 2%);
+    background: -o-linear-gradient(top,  #ffa853 0%,#fdf9bd 2%);
+    background: -ms-linear-gradient(top,  #ffa853 0%,#fdf9bd 2%);
+    background: linear-gradient(top,  #ffa853 0%,#fdf9bd 2%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffa853', endColorstr='#fdf9bd',GradientType=0 );
+    background-repeat: repeat-x;
+    background-color: #fdf9bd; /* Old browsers */
+  
+  }
+
+  /* link styles */
+  a:link {
+      color: #C00;
+    }
+  a:visited {
+      color: #921A66;
+    }
+  a:focus {
+    color: #921A66;
+  }
+  a:hover {
+      color: #921A66;
+    }
+  a:active {
+    color:#F00;
+  }
+
+  /* styles for the intro section */
+#intro {
+	text-align: center;
+  margin: 3em 0 1em;
+}
+#intro h1 {
+  margin-bottom: 0;
+}
+#intro h2 {
+	font-size: 1.2em;
+	text-transform: uppercase;
+	letter-spacing: .2em;
+	color: #f26521;
+  margin-top: -10px;
+}
+#intro p {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+  margin: 1em;
+}
+
+
+
+  /* styles for navigation */
+  #nav {
+    background-color: #751c54;
+    height: 115px;
+    text-align: center;
+  }
+  #nav ul {
+    list-style:none;
+  } 
+  #nav ul li {
+      font-weight: normal;
+      text-transform: uppercase;
+      display: inline-block;
+      padding-top: 45px ;
+      padding-left: 50px;
+      padding-right: 50px;
+      font-size: x-large;
+  }
+  
+  #nav ul a:link {
+      color: #fff;
+      text-decoration: none;
+    }
+
+  #nav ul a:visited {
+      color: #fff;
+    }
+  #nav ul a:focus {
+    color:#FC6
+  }
+  #nav ul a:hover {
+      color: #fc6;
+    }
+  #nav ul a:active {
+    color:#F00;
+  }
+    
+
+  #nav button{
+  padding: 10px;
+  font-size: large;
+  color: white;
+  border-radius: 15px;
+  border-color:#FFBC53;
+  background-color:#751c54;
+  border-width: 2px;
+}
+
+#nav ul button a:hover {
+      color: skyblue;
+    }
+
+  /* styles for the products section */
+  #products {
+  background-color: #FFF;
+  line-height: 1.5em;
+  padding: 1em;
+  border: double #FFBC53;
+  margin: 1em;
+  }
+#products h2 {
+  font-size: 1.2em;
+  color: #ac267b;
+  text-align: center;
+  text-transform: uppercase;
+  }
+#products h3 {
+  font-size: 1em;
+  text-transform: uppercase;
+  color: #F26521;
+  border-top: 1px solid;
+  border-left: 3px solid;
+  padding-left: 1em;
+  margin-top: 2.5em;
+}
+
+#next {
+  background-color: #FFF;
+  line-height: 1.5em;
+  padding: 1em;
+  border: double #FFBC53;
+  margin: 1em;
+  text-align: center;
+  }
+
+  #next ul{
+    list-style: none;
+  }
+
+  #next ul li {
+      display: inline-block;
+      font-size: x-large;
+      padding: 5px;
+  }
+
+  #next ul a:link {
+      color: #921A66;
+      text-decoration: none;
+    }
+
+    @media (max-width: 895px) {
+        #nav{
+          height: 200px;
+        }
+}
+
+@media (max-width: 470px) {
+        #nav ul li{
+      padding-top: 20px ;
+      padding-left: 50px;
+      padding-right: 50px;
+        }
+}
+
+@media (max-width: 350px) {
+        #nav ul li{
+      padding-top: 20px ;
+      padding-left: 25px;
+      padding-right: 25px;
+        }
+}
+
+@media (max-width: 470px) {
+        #nav{
+          height: 250px;
+        }
+}
+
+@media (max-width: 607px) {
+        #nav{
+          height: 250px;
+        }
+
+        #nav ul li{
+      padding-top: 20px ;
+      padding-left: 25px;
+      padding-right: 25px;
+        }
+}
+
+    </style>
+
+</head>
+<body>
+    <div id="intro">
+        <hgroup>
+          <h1><img src="../logo.jpg" alt="logo"  width="350px"></h1>
+        <h2>CARPE DIEM</h2>
+        </hgroup>
+
+        <p><em>Tovarlarni TIF TN kodi asosida tasniflash ilmiy-ijodiy jamoasi</em></p>
+        <hr>
+    </div>
+   
+    <div id="nav">
+        <ul>
+          <li><a href="index.html">Asosiy</a></li>
+          <li><a href="goods.html">Tadqiqotlar</a></li>
+          <li><a href="contacts.html">Kontaktlar</a></li>
+          <li><a href="about.html">Biz Haqimizda</a></li>
+            <button><a href="goods2.html">UZ</a></button> 
+            <button><a href="../goods2.html">RU</a></button> 
+        </ul>    
+    </div>
+
+    <div id="content">
+        <div id="products">
+    
+            <h2>Innovatsion Tovarlar bo'yicha Tadqiqot Natijalari</h2>
+            <h3>Universal massajor  </h3>
+            <img src="Goods/Universal/2.jpg" alt="" height="270px" width="200px">
+            <p>
+              Massaj gʻoyasi qoʻshma kasalliklarning oldini olish va umumiy farovonlikni yaxshilashga boʻlgan qiziqish ortib borayotganidan kelib chiqqan. Fizioterapiya mutaxassislari muntazam massaj va issiqlik qon aylanishini sezilarli darajada yaxshilashi, boʻgʻinlar va mushaklarning kuchlanishini yengillashtirishi va koʻplab sogʻliq muammolarining oldini olishi mumkinligini payqashdi. 
+            </p> 
+              <p>  Mahsulotni ishlab chiqishni boshlashdan oldin, jamoa odamlarga aynan nima kerakligini tushunish uchun keng qamrovli soʻrovlar va fokus-guruhlar oʻtkazdi. Koʻpgina foydalanuvchilar nafaqat massaj, balki isitish shaklida qoʻshimcha qulayliklarni taʻminlaydigan qurilmalarni qidirayotganini aniqladik. Bu, ayniqsa, surunkali kasalliklarga chalingan odamlar va harakatsiz turmush tarzini olib boradiganlar uchun toʻgʻri keladi.
+            </p>
+            <p><a href="Goods\Universal\index.html">Davomini o'qish</a></p>
+
+            <h3>Xona o‘simliklari uchun  yoritgich     </h3>
+            <img src="Goods/AeroGarden/2.jpg" alt="" height="270px" width="200px">
+            <p><b>Oyna yoʻq – muammo yoʻq. </b> Xona o‘simliklari uchun  yoritgich toʻliq spektrli LED yoritgichni ishlab chiqarish orqali xonaga yorqin quyosh nurini olib keladi, bu xona oʻsimliklarining yil davomida hatto eng qorongʻu burchaklarida ham oʻsishi 
+              va sogʻlom boʻlishiga yordam beradi.
+              </p> 
+             <p>  Yoritgich toʻgʻridan-toʻgʻri tuproqqa osongina kiritiladigan ikkita tirgakka ega.</p>
+            <p><a href="Goods\AeroGarden\garden.html">Davomini o'qish</a></p>
+
+            <h3>Raqamli mini kameralar </h3>
+            <img src="Goods/Digital Cameras/2.jpg" alt="" height="270px" width="200px">
+            <p>Videokuzatuv uskunalari boʻlmasa, xavfsizlik tizimi toʻliq emas va videoyozuv uchun yashirin texnik vositalardan foydalanish obyektning butun xavfsizlik tizimining imkoniyatlarini va ishonchliligini kengaytiradi.</p>
+            <p><a href="Goods/Digital Cameras/index.html">Davomini o'qish</a></p>
+        </div> 
+
+        <div id="next">
+            <ul>
+                <li><a href="goods.html">[1]</li>
+                <li><a href="goods2.html">[2]</li>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+
+    </footer>
+</body>
+</html>
