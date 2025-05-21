@@ -1,1 +1,274 @@
 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harmonized System</title>
+    
+    <style type="text/css">
+      
+    body {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 100%;
+    margin: 0;
+  
+  /* background gradient at top of page, from http://www.colorzilla.com/gradient-editor/ */
+    background: -moz-linear-gradient(top,  #ffa853 0%, #fdf9bd 2%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffa853),color-stop(2%,#fdf9bd));
+    background: -webkit-linear-gradient(top,  #ffa853 0%,#fdf9bd 2%);
+    background: -o-linear-gradient(top,  #ffa853 0%,#fdf9bd 2%);
+    background: -ms-linear-gradient(top,  #ffa853 0%,#fdf9bd 2%);
+    background: linear-gradient(top,  #ffa853 0%,#fdf9bd 2%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffa853', endColorstr='#fdf9bd',GradientType=0 );
+    background-repeat: repeat-x;
+    background-color: #fdf9bd; /* Old browsers */
+  
+  }
+
+  /* link styles */
+  a:link {
+      color: #C00;
+    }
+  a:visited {
+      color: #921A66;
+    }
+  a:focus {
+    color: #921A66;
+  }
+  a:hover {
+      color: #921A66;
+    }
+  a:active {
+    color:#F00;
+  }
+
+  /* styles for the intro section */
+#intro {
+	text-align: center;
+  margin: 3em 0 1em;
+}
+#intro h1 {
+  margin-bottom: 0;
+}
+#intro h2 {
+	font-size: 1.2em;
+	text-transform: uppercase;
+	letter-spacing: .2em;
+	color: #f26521;
+  margin-top: -10px;
+}
+#intro p {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+  margin: 1em;
+}
+
+
+
+  /* styles for navigation */
+  #nav {
+    background-color: #751c54;
+    height: 115px;
+    text-align: center;
+  }
+  #nav ul {
+    list-style:none;
+  } 
+  #nav ul li {
+      font-weight: normal;
+      text-transform: uppercase;
+      display: inline-block;
+      padding-top: 45px ;
+      padding-left: 50px;
+      padding-right: 50px;
+      font-size: x-large;
+  }
+  
+  #nav ul a:link {
+      color: #fff;
+      text-decoration: none;
+    }
+
+  #nav ul a:visited {
+      color: #fff;
+    }
+  #nav ul a:focus {
+    color:#FC6
+  }
+  #nav ul a:hover {
+      color: #fc6;
+    }
+  #nav ul a:active {
+    color:#F00;
+  }
+    
+  #nav button{
+  padding: 10px;
+  font-size: large;
+  color: white;
+  border-radius: 15px;
+  border-color:#FFBC53;
+  background-color:#751c54;
+  border-width: 2px;
+}
+
+#nav ul button a:hover {
+      color: skyblue;
+    }
+
+
+  /* styles for the products section */
+  #products {
+  background-color: #FFF;
+  line-height: 1.5em;
+  padding: 1em;
+  border: double #FFBC53;
+  margin: 1em;
+  }
+#products h2 {
+  font-size: 1.2em;
+  color: #ac267b;
+  text-align: center;
+  text-transform: uppercase;
+  }
+#products h3 {
+  font-size: 1em;
+  text-transform: uppercase;
+  color: #F26521;
+  border-top: 1px solid;
+  border-left: 3px solid;
+  padding-left: 1em;
+  margin-top: 2.5em;
+}
+
+#next {
+  background-color: #FFF;
+  line-height: 1.5em;
+  padding: 1em;
+  border: double #FFBC53;
+  margin: 1em;
+  text-align: center;
+  }
+
+  #next ul{
+    list-style: none;
+  }
+
+  #next ul li {
+      display: inline-block;
+      font-size: x-large;
+      padding: 5px;
+  }
+
+  #next ul a:link {
+      color: #921A66;
+      text-decoration: none;
+    }
+
+@media (max-width: 895px) {
+        #nav{
+          height: 200px;
+        }
+}
+
+@media (max-width: 470px) {
+        #nav ul li{
+      padding-top: 20px ;
+      padding-left: 50px;
+      padding-right: 50px;
+        }
+}
+
+@media (max-width: 350px) {
+        #nav ul li{
+      padding-top: 20px ;
+      padding-left: 25px;
+      padding-right: 25px;
+        }
+}
+
+@media (max-width: 470px) {
+        #nav{
+          height: 250px;
+        }
+}
+
+@media (max-width: 607px) {
+        #nav{
+          height: 250px;
+        }
+
+        #nav ul li{
+      padding-top: 20px ;
+      padding-left: 25px;
+      padding-right: 25px;
+        }
+}
+    </style>
+
+</head>
+<body>
+    <div id="intro">
+        <hgroup>
+          <p><em>Научно-творческая группа по классификации товаров по коду ТНВЭД</em></p>
+          <h1><img src="logoru.jpg" alt="logo"  width="350px"></h1>
+        <h2>CARPE DIEM</h2>
+        </hgroup>
+
+           <hr>
+    </div>
+   
+    <div id="nav">
+      <ul>
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="goods.html">Исследования</a></li>
+          <li><a href="contacts.html">Контакты</a></li>
+          <li><a href="about.html">О Нас</a></li>
+          <button><a href="uz/goods.html">UZ</a></button> 
+          <button><a href="goods.html">RU</a></button> 
+      </ul>    
+  </div>
+
+
+    <div id="content">
+        <div id="products">
+           	<img src="img3/Книга НРВТ 2 часть-01.jpg" width="85%" height="auto" alt="" >
+	    	<img src="img3/Книга НРВТ 2 часть-02.jpg" width="85%" height="auto" alt="" >
+		<img src="img3/Книга НРВТ 2 часть-03.jpg" width="85%" height="auto" alt="" >
+		<img src="img3/Книга НРВТ 2 часть-04.jpg" width="85%" height="auto" alt="" >
+		<img src="img3/Книга НРВТ 2 часть-05.jpg" width="85%" height="auto" alt="" >
+		<img src="img3/Книга НРВТ 2 часть-06.jpg" width="85%" height="auto" alt="" >
+		<img src="img3/Книга НРВТ 2 часть-07.jpg" width="85%" height="auto" alt="" >
+		<img src="img3/Книга НРВТ 2 часть-08.jpg" width="85%" height="auto" alt="" >
+		<img src="img3/Книга НРВТ 2 часть-09.jpg" width="85%" height="auto" alt="" >
+		<img src="img3/Книга НРВТ 2 часть-10.jpg" width="85%" height="auto" alt="" >
+		<img src="img3/Книга НРВТ 2 часть-11.jpg" width="85%" height="auto" alt="" >
+		<img src="img3/Книга НРВТ 2 часть-12.jpg" width="85%" height="auto" alt="" >
+		<img src="img3/Книга НРВТ 2 часть-13.jpg" width="85%" height="auto" alt="" >
+		<img src="img3/Книга НРВТ 2 часть-14.jpg" width="85%" height="auto" alt="" >
+		<img src="img3/Книга НРВТ 2 часть-15.jpg" width="85%" height="auto" alt="" >
+            	<img src="img3/Книга НРВТ 2 часть-16.jpg" width="85%" height="auto" alt="" >
+	    	<img src="img3/Книга НРВТ 2 часть-17.jpg" width="85%" height="auto" alt="" >
+		<img src="img3/Книга НРВТ 2 часть-18.jpg" width="85%" height="auto" alt="" >
+		<img src="img3/Книга НРВТ 2 часть-19.jpg" width="85%" height="auto" alt="" >
+		<img src="img3/Книга НРВТ 2 часть-20.jpg" width="85%" height="auto" alt="" >
+		<img src="img3/Книга НРВТ 2 часть-21.jpg" width="85%" height="auto" alt="" >
+		<img src="img3/Книга НРВТ 2 часть-22.jpg" width="85%" height="auto" alt="" >
+		<img src="img3/Книга НРВТ 2 часть-23.jpg" width="85%" height="auto" alt="" >
+		<img src="img3/Книга НРВТ 2 часть-24.jpg" width="85%" height="auto" alt="" >
+		<img src="img3/Книга НРВТ 2 часть-25.jpg" width="85%" height="auto" alt="" >
+		<img src="img3/Книга НРВТ 2 часть-26.jpg" width="85%" height="auto" alt="" >
+		<img src="img3/Книга НРВТ 2 часть-27.jpg" width="85%" height="auto" alt="" >
+		<img src="img3/Книга НРВТ 2 часть-28.jpg" width="85%" height="auto" alt="" >
+            </div>
+    </div>
+
+    <footer>
+
+    </footer>
+</body>
+</html>
+
